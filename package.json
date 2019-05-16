@@ -1,0 +1,26 @@
+{
+  "name": "multi-channel-emitter",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/iamjoshua/multi-channel-emitter.git",
+  "author": "Joshua Heiland <thezenman@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest ./src/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "dependencies": {
+    "eventemitter2": "^5.0.1",
+    "lodash": "^4.17.11",
+    "prompt-confirm": "^2.0.4"
+  }
+}
